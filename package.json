@@ -1,6 +1,7 @@
 {
     "name": "smpi-iop-react-native",
     "version": "0.0.1",
+    "description": "SMPI IOP for React Native",
     "main": "index.js",
     "scripts": {
     },
