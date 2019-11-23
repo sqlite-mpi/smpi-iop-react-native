@@ -1,0 +1,29 @@
+{
+    "name": "smpi-iop-react-native",
+    "version": "0.0.1",
+    "main": "index.js",
+    "scripts": {
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sqlite-mpi/smpi-iop-react-native.git",
+        "baseUrl": "https://github.com/sqlite-mpi/smpi-iop-react-native"
+    },
+    "homepage": "https://sqlitempi.com",
+    "keywords": [
+        "react-native"
+    ],
+    "author": {
+        "name": "Enzo",
+        "email": "emadda.dev@gmail.com"
+    },
+    "license": "MIT",
+    "peerDependencies": {
+        "react": "^16.8.1",
+        "react-native": ">=0.59.0-rc.0 <1.0.x"
+    },
+    "devDependencies": {
+        "react": "^16.8.3",
+        "react-native": "^0.59.10"
+    }
+}
