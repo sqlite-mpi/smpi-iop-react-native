@@ -1,5 +1,27 @@
 # SMPI IOP for React Native.
 
+### Install
+
+Considering a newly created React Native project:
+
+- `npx react-native init TestProj`
+- `yarn add sqlite-mpi-client-js`
+- `yarn add smpi-iop-react-native`
+- `cd ios; pod install`
+    - [Autolinking](https://github.com/react-native-community/cli/blob/master/docs/autolinking.md) should discover `smpi-iop-react-native`
+    - `open TestProj.xcworkspace`
+    - Add `$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)`  to `Target -> Build Settings -> Library Search Paths`.
+          - Fixes `Could not find auto-linked library 'swiftCoreImage'`.
+
+
+You may also need to install https://github.com/itinance/react-native-fs in order to get file paths to pass the SMPI JS client.
+
+
+An example React Native project:
+https://github.com/sqlite-mpi/SMPIDemoA
+
+
+
 ### Introduction 
 
 See https://sqlitempi.com for a general overview.
@@ -17,7 +39,7 @@ The [SMPI JS client](https://github.com/sqlite-mpi/sqlite-mpi-client-js) provide
 - This allows the client to run in any JS environment that can send/receive data.
 
 
-This repo:
+### This repo
 
 - Is a React Native module.
 - Contains the code for layers B and C.
