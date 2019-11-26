@@ -56,3 +56,5 @@ The [SMPI JS client](https://github.com/sqlite-mpi/sqlite-mpi-client-js) provide
 The shared library binaries (.so, .a) included in this repo are MIT licensed, but the source code that produced them is closed and proprietary.
 
 A perpetual license for the source code can be arranged for a small fee, please contact emadda.dev@gmail.com.
+
+See https://sqlitempi.com/license for more details.
